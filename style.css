@@ -7,8 +7,17 @@ header {
     padding-top: 20px;
 }
 
+h1 {
+    font-size: 70px;
+    padding: none;
+    margin: 0px;
+    margin-top: 80px;
+    
+
+}
+
 h2 {
-    50px;
+    font-size: 50px;
 }
 
 .social-media {
@@ -29,6 +38,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-height: 150px;
 }
 
 .main-section {
