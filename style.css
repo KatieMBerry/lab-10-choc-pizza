@@ -3,17 +3,34 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom: 1px solid gray;
+    border-bottom: darkgray 5px solid;
     padding-top: 20px;
 }
 
+h1 {
+    font-size: 70px;
+    padding: none;
+    margin: 0px;
+    margin-top: 60px;
+    
+
+}
+
+h2 {
+    font-size: 50px;
+}
+
+.social-media {
+    
+}
+
 body {
-    width: 960px;
+    width: 900px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
-    font-family: serif;
-    font-size: 18px;
+    font-family: 'Peddana', serif;
+    /* font-size: 24px; */
     letter-spacing: 0em;
 }
 
@@ -21,10 +38,14 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-height: 150px;
 }
 
 .main-section {
     text-indent: 1em;
+    color: darkgray;
+    font-size: 26px;
+    line-height: 20px;
 }
 
 .recipe-list {
@@ -33,6 +54,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    font-family: 'Comic Neue', cursive;
 }
 
 .notepad {
@@ -43,7 +65,9 @@ body {
     height: 200px;
     line-height: 2px;
     font-family: 'Peddana', serif;
+    font-size: 20px;
     letter-spacing: 0em;
+    color: darkgray;
 }
 
 img {
@@ -61,4 +85,52 @@ h1 {
 
 ul {
     list-style: none;
+}
+
+.line-through {
+    text-decoration-line: line-through;
+
+}
+
+.author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 225px;
+    padding-top: 0px;
+    border-top: darkgray 5px solid;
+    margin-top: 40px;
+
+}
+
+h3 {
+    font-style: bold;
+    color: black;
+    margin: 0px;
+}
+
+.author-blurb {
+    font-size: 26px;
+    font-family: 'Peddana', serif;
+    color: darkgray;
+    width: 625px;
+    line-height: 20px;
+    padding-left: 15px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: 1px darkgray solid;
+}
+
+.copyright {
+    width: 280px;
+    text-align: center;
+    color: darkgray;
+    padding-top: 30px;
+    font-family: 'Peddana', serif;
+    font-size: 22px;
+    line-height: 1em;
 }
