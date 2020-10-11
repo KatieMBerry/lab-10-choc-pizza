@@ -91,3 +91,25 @@ ul {
     text-decoration-line: line-through;
 
 }
+
+.author {
+    display: flex;
+    height: 225px;
+    padding-top: 50px;
+
+}
+
+h2 {
+    margin: 0px;
+    padding-left: 15px;
+    /* border: 0px; */
+}
+
+.author-blurb {
+    font-size: 26px;
+    font-family: 'Peddana', serif;
+    color: darkgray;
+    width: 625px;
+    line-height: 20px;
+    padding-left: 15px;
+}
