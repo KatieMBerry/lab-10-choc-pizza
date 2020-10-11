@@ -3,7 +3,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom: 1px solid gray;
+    border-bottom: darkgray 5px solid;
     padding-top: 20px;
 }
 
@@ -11,7 +11,7 @@ h1 {
     font-size: 70px;
     padding: none;
     margin: 0px;
-    margin-top: 80px;
+    margin-top: 60px;
     
 
 }
@@ -116,4 +116,21 @@ h3 {
     width: 625px;
     line-height: 20px;
     padding-left: 15px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: 1px darkgray solid;
+}
+
+.copyright {
+    width: 280px;
+    text-align: center;
+    color: darkgray;
+    padding-top: 30px;
+    font-family: 'Peddana', serif;
+    font-size: 22px;
+    line-height: 1em;
 }
