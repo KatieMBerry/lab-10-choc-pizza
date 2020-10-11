@@ -94,15 +94,19 @@ ul {
 
 .author {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     height: 225px;
-    padding-top: 50px;
+    padding-top: 0px;
+    border-top: darkgray 5px solid;
+    margin-top: 40px;
 
 }
 
-h2 {
+h3 {
+    font-style: bold;
+    color: black;
     margin: 0px;
-    padding-left: 15px;
-    /* border: 0px; */
 }
 
 .author-blurb {
